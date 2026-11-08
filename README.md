@@ -1,6 +1,11 @@
 # Yuix-Networks Homebrew Tap
 
+Recent Homebrew versions refuse to load formulae from a third-party tap until you trust
+it, so trust the tap **before** installing:
+
 ```bash
+brew tap yuix-networks/tap
+brew trust yuix-networks/tap
 brew install yuix-networks/tap/claude-orchestrator
 ```
 
